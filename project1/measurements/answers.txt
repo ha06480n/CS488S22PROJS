@@ -1,0 +1,34 @@
+Q2 Answers
+
+I expect the avg latency between h1 and h4 to be between 159ms and 166ms, and I expect the avg bandwidth to be about 21.0mb/s. 
+
+The average latency came out to be 164.383ms, and this is between my expected average latency. This is because I rounded the latency for each link and added them together 
+to get an estimate of what it could be. As for the bandwidth, since the lowest bandwidth for one of the links was about 21.0mb/s and the other links were around 25.0mb/s 
+I assumed the average would be closer to 21.0mb/s. 
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Q3 Answers
+
+I expect the latency of the pairs to be around 160ms and the bandwidth to be 11mb/s. 
+
+The latency of both pairs came out to be 164ms. This is because the connection between the hosts use the same links, and the latency would compund after each link. 
+In other words, the latency of each link adds up between the two hosts. Although two pairs are connecting at the same time, this should not effect latency like it would
+for bandwidth. For the bandwidth, one pair was about 9.0mb/s and the other 13.0mb/s. Since two connections were running at the same time, I expected the average throughput
+from Q2 to be split. 
+
+
+While doing three pairs, the latency was again the same as it was when doing two pairs. This is because latency does not really change, regardless of the amount of connections.
+As for the bandwidth, since there are three connections now it is much lower. The original bandwidth was around 21.0/mb/s and now they are split into thirds. 
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Q4 Answers
+
+I expect the latency of the connection between h1 and h4 to be about 160ms and the connection between h5 and h6 to be abour 40ms. For the
+bandwidth, I expect h1-h4 to be about 11.0mb/s and the same for h5-6. 
+
+The latency for h1-h4 turned out to be 165.196ms, and the latency for h5-h6 is 46.880ms. This is expected since you would just add the latency 
+of each line between the connections to find the latency. As for the bandwidth, h1-h4 came out to be 9.60mb/s h5-h6 came out to be 17.3mb/s. 
+Initially, I assumed the bandwidth would be totally split since it's two connections at the same time. However, since h5-h6 has a much lower latency
+the connection would be faster. Also, both pairs only share a link once, and are seperate for the most part. So this would have an effect on the bandwidth as well. 
