@@ -27,5 +27,5 @@ while timeStart - time.perf_counter() < myTime:
     counter += 1
     continue
 
-print("sent=", counter, " KB rate=", counter*8.0/10000.0, " Mbps")
+print("sent=", counter, " KB rate=", counter*8.0/10000.0/myTime, " Mbps")
 clientSocket.close()
