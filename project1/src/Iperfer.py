@@ -16,7 +16,7 @@ if((port < 1024) or (port > 65535)): # Port out of range
 
 address = (host, port)
 clientSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #IPv4, TCP socket
-clientSocket.connect(address)
+clientSocket.connect(('192.168.198.1',1200))
 message = bytearray(1000) #Message 1000 bytes long of 0
 counter = 0 #Counter for number of messages sent
 
